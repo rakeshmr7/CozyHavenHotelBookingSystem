@@ -1,0 +1,355 @@
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 45px;
+    background-color:white;
+    box-shadow:0px 2px 10px rgba(0,0,0,0.08);
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+/* SEARCH BOX */
+
+.search-box{
+    background:#F8F5F0;
+
+    padding:28px;
+
+    border-radius:20px;
+
+    display:flex;
+
+    align-items:flex-end;
+
+    justify-content:space-between;
+
+    gap:18px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+
+    margin-bottom:35px;
+
+    flex-wrap:nowrap;
+}
+
+/* FIELD */
+
+.search-field{
+    display:flex;
+
+    flex-direction:column;
+
+    text-align:left;
+}
+
+.search-field label{
+    font-size:14px;
+
+    color:#666;
+
+    margin-bottom:6px;
+
+    font-weight:500;
+}
+
+/* INPUTS */
+
+.search-field input,
+.city-input{
+    width:190px;
+
+    height:50px;
+
+    padding:0 14px;
+
+    border:1px solid #ddd;
+
+    border-radius:10px;
+
+    outline:none;
+
+    font-size:14px;
+
+    background:white;
+
+    box-sizing:border-box;
+}
+
+.search-field input:focus{
+    border:1px solid #9C0A8F;
+}
+
+/* DATE GROUP */
+
+.date-group{
+    display:flex;
+
+    gap:15px;
+}
+
+/* GUEST */
+
+.guest-container{
+    position:relative;
+}
+
+.guest-btn{
+    width:190px;
+
+    height:50px;
+
+    border:1px solid #ddd;
+
+    border-radius:10px;
+
+    background:white;
+
+    cursor:pointer;
+
+    font-size:14px;
+
+    color:#555;
+}
+
+.guest-dropdown{
+    position:absolute;
+
+    top:65px;
+
+    left:0;
+
+    background:white;
+
+    width:260px;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,0.2);
+
+    z-index:100;
+}
+
+.row{
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:18px;
+}
+
+.row label{
+    font-size:15px;
+
+    font-weight:500;
+
+    color:#333;
+}
+
+.row select{
+    padding:6px 10px;
+
+    border-radius:8px;
+
+    border:1px solid #ccc;
+}
+
+/* SEARCH BUTTON */
+
+.search-btn{
+    height:50px;
+
+    padding:0 40px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#9C0A8F;
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+    min-width:170px;
+}
+
+.search-btn:hover{
+    background:#7E006E;
+}
+
+.logo{
+    font-size:34px;
+    font-weight:bold;
+    color:#a000a0;
+}
+
+.navLinks{
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
+
+.navItem{
+    text-decoration:none;
+    color:#222;
+    font-weight:600;
+    font-size:16px;
+}
+
+.profileBtn{
+    border:none;
+    background-color:#a000a0;
+    color:white;
+    padding:12px 22px;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:600;
+    font-size:15px;
+}
+
+.profilePopup{
+    position:fixed;
+    top:90px;
+    right:40px;
+    width:320px;
+    background-color:white;
+    border-radius:18px;
+    padding:25px;
+    box-shadow:0px 4px 20px rgba(0,0,0,0.2);
+    z-index:2000;
+}
+
+.profileTitle{
+    margin-bottom:18px;
+    color:#a000a0;
+}
+
+.bookingLink{
+    text-decoration:none;
+    background-color:#a000a0;
+    color:white;
+    padding:12px 18px;
+    border-radius:10px;
+    display:inline-block;
+    font-weight:600;
+    margin-top:15px;
+}
+
+.mainContainer{
+    display:flex;
+    gap:35px;
+    padding:35px;
+    background-color:#f4f1ec;
+    min-height:100vh;
+}
+
+.filterBox{
+    width:300px;
+    background-color:white;
+    border-radius:25px;
+    padding:28px;
+    box-shadow:0px 4px 18px rgba(0,0,0,0.08);
+    height:fit-content;
+    position:sticky;
+    top:100px;
+}
+
+.filterTitle{
+    margin-bottom:30px;
+    color:#222;
+    font-size:28px;
+}
+
+.sectionTitle{
+    margin-bottom:12px;
+    font-size:19px;
+    color:#444;
+}
+
+.priceText{
+    margin-bottom:15px;
+    font-weight:600;
+    color:#777;
+}
+
+.rangeInput{
+    width:100%;
+    accent-color:#a000a0;
+    cursor:pointer;
+}
+
+.amenitiesSection{
+    margin-top:35px;
+}
+
+.checkboxRow{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:15px;
+}
+
+.checkbox{
+    width:18px;
+    height:18px;
+    accent-color:#a000a0;
+    cursor:pointer;
+}
+
+.checkboxLabel{
+    font-size:15px;
+    color:#444;
+    cursor:pointer;
+}
+
+.clearBtn{
+    margin-top:25px;
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:12px;
+    background-color:#a000a0;
+    color:white;
+    cursor:pointer;
+    font-weight:600;
+    font-size:15px;
+}
+
+.hotelsSection{
+    flex:1;
+}
+
+.hotelHeading{
+    font-size:42px;
+    margin-bottom:8px;
+    color:#222;
+}
+
+.hotelCount{
+    color:gray;
+    margin-bottom:30px;
+    font-size:15px;
+}
+
+.noHotelsBox{
+    background-color:white;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0px 3px 10px rgba(0,0,0,0.08);
+}
+
+.noHotelsText{
+    color:#555;
+}
